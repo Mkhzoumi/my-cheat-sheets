@@ -78,9 +78,6 @@ dependencies {
     // Support for Java 8 features
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
 
-    // we add these for graphQL
-    implementation 'com.amplifyframework:aws-api:1.24.0'
-    implementation 'com.amplifyframework:aws-datastore:1.24.0'
 }
 ```
 
@@ -156,7 +153,7 @@ try {
   }
 ```
 
-### now run the build and you should see this in the logcat , put this inside its search (MyAmplifyApp)
+### now run the build and you should see this in the logcat , put this inside its search =>(MyAmplifyApp)
 
 ```
 com.example.MyAmplifyApp I/MyAmplifyApp: Initialized Amplify
